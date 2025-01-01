@@ -1,10 +1,9 @@
-import React from 'react';
 import { Github, Twitter, Globe } from 'lucide-react';
 
 export function DeveloperInfo() {
   return (
     <div className="flex items-center gap-4">
-      <span className="text-slate-400">Created by</span>
+      <span className="text-slate-400">Created by eshanized @</span>
       <div className="flex gap-2">
         <a
           href="https://github.com/eshanized"

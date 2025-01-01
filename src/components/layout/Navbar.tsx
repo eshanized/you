@@ -1,4 +1,3 @@
-import React from 'react';
 import { Github } from 'lucide-react';
 
 export function Navbar() {
@@ -9,11 +8,11 @@ export function Navbar() {
           <div className="flex items-center gap-2">
             <Github className="h-6 w-6 text-indigo-400" />
             <span className="text-xl font-bold bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">
-              GitHubStats
+              GitHubStats | eshanized
             </span>
           </div>
           <a
-            href="https://github.com"
+            href="https://github.com/eshanized/you"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-glass"
