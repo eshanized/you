@@ -8,7 +8,7 @@ export function Navbar() {
           <div className="flex items-center gap-2">
             <Github className="h-6 w-6 text-indigo-400" />
             <span className="text-xl font-bold bg-gradient-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">
-              GitHubStats | eshanized
+              You | eshanized
             </span>
           </div>
           <a
@@ -17,7 +17,7 @@ export function Navbar() {
             rel="noopener noreferrer"
             className="btn-glass"
           >
-            Visit GitHub
+            Visit on GitHub
           </a>
         </div>
       </div>

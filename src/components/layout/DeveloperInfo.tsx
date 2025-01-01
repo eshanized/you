@@ -2,35 +2,38 @@ import { Github, Twitter, Globe } from 'lucide-react';
 
 export function DeveloperInfo() {
   return (
-    <div className="flex items-center gap-4">
-      <span className="text-slate-400">Created by eshanized @</span>
-      <div className="flex gap-2">
+    <div className="flex flex-wrap items-center gap-4">
+      <span className="text-white text-sm sm:text-base">Created by eshanized @</span>
+      <div className="flex gap-3">
         <a
           href="https://github.com/eshanized"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-slate-300 hover:text-indigo-400 transition-colors"
+          className="text-white hover:text-indigo-400 transition-transform transform hover:scale-110"
+          aria-label="GitHub profile of eshanized"
           title="GitHub"
         >
-          <Github size={16} />
+          <Github size={18} />
         </a>
         <a
           href="https://twitter.com/eshanized"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-slate-300 hover:text-indigo-400 transition-colors"
+          className="text-white hover:text-indigo-400 transition-transform transform hover:scale-110"
+          aria-label="Twitter profile of eshanized"
           title="Twitter"
         >
-          <Twitter size={16} />
+          <Twitter size={18} />
         </a>
         <a
           href="https://eshanized.github.io"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-slate-300 hover:text-indigo-400 transition-colors"
+          className="text-white hover:text-indigo-400 transition-transform transform hover:scale-110"
+          aria-label="Website of eshanized"
           title="Website"
         >
-          <Globe size={16} />
+          <Globe size={18} />
         </a>
       </div>
     </div>

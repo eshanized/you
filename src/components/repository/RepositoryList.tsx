@@ -60,13 +60,15 @@ export function RepositoryList({ repositories }: RepositoryListProps) {
       />
 
       <div className="space-y-4">
-        {filteredAndSortedRepos.map((repo) => (
-          <RepositoryCard key={repo.id} repository={repo} />
-        ))}
-        
-        {filteredAndSortedRepos.length === 0 && (
+        {filteredAndSortedRepos.length > 0 ? (
+          filteredAndSortedRepos.map((repo) => (
+            <RepositoryCard key={repo.id} repository={repo} />
+          ))
+        ) : (
           <div className="glass-card p-8 text-center">
-            <p className="text-slate-400">No repositories found matching your criteria.</p>
+            <p className="text-slate-400">
+              No repositories found matching your criteria.
+            </p>
           </div>
         )}
       </div>
